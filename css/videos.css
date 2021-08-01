@@ -1,0 +1,19 @@
+body{margin:  0 auto;background: #263238;}
+.contendorprincipalvideo{height: 100%; width: 100%;}
+.medio{width: 80%; height: auto; margin-left: auto; margin-right: auto;background-color: rgba(0,0,0,0.8);}
+
+.detalledelapelis{width:80%; height:40vh; margin-left: auto; margin-right: auto; margin-top: 2%; 
+    background-image: url(../imagenes/iconos/enfoco.jpg);position: relative;
+     background-position: center; background-repeat: no-repeat; background-size: cover; }
+     .encima{width: auto;overflow: hidden; height: 100%;background-color: rgba(0,0,0,0.5); position: relative;}
+.contenedorimagen{width: 20%;height: auto; float: left;}
+.descripciondelapelis{width: 60%; height: auto;float: left;  padding: 2%;;}
+#descrip{color: silver; font-size: 1.2vw; width: auto; height: auto; }
+#genero{width: auto; height: auto;}
+
+#titulo{color: white;font-size: 2.5vw;}
+.redes{width: auto;height: auto; display: flex;align-items: center; justify-content: right;}
+.cantendorcategoria{width: auto; height: auto; padding: 0.5%;display: flex; align-items: center; color: white; justify-content: left;}
+.red{background: transparent; border: 0px;}
+.comp{color:white;}
+b{color: silver;}

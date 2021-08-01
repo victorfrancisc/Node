@@ -1,0 +1,65 @@
+body{margin:  0 auto;}
+.contenedor{height: 100%; height: 100%; background: #141a32;  padding-bottom: 20%;}
+.princi{height: 100vh; width: 100%; background-image:url('imagenes/lucas.jpeg') ; background-repeat: no-repeat; 
+    background-size: auto; position: relative;}
+    .superior{position: absolute; background-color: rgba(0,0,0,0.6); width:100%; height: 100vh ;}
+.menu{ height: auto; height: auto;   padding: 2%;  overflow: hidden; 
+    display: flex;  justify-items: center; padding-left: 20%; }
+.cambio{border: 0px transparent solid; background: transparent; color: white; font-size: 1.2vw; padding: 1%;margin-left: 5%; font-weight: 600;  text-align: left;}
+.cambio:hover{cursor: pointer;}
+.mover{padding-top: 5%;}
+.cambio:hover{color: #03a9f4;}
+.categoria{height: auto;width: 40%; padding: 1%;  display: flex; align-items: center; float: left ;
+margin-right: 5%;}
+.logo{width: 8%; height: 10vh; padding: 1%; background-size:cover; background-repeat:  no-repeat; background-position: center;
+     float: left; background-image: url('imagenes/iconos/logo.png'); margin-left: 5%; margin-left: 5%; }
+     .contenedorB{height: auto; width: 25%; padding: 2%;    float: left;  display: flex; 
+        align-items: center;}
+     .bus{font-size: 1.2vw; width: 90%; background: transparent; height: auto;  border: 0px; outline: none;  color: darkgrey;}
+     .busc{width: 15%; height: 5vh; background-image: url('imagenes/iconos/buscar.ico');
+         background-position: center; background-repeat: no-repeat; margin-left: 3%;;}
+         .contenedordebusqueda{width: auto;height: auto;padding: 3%; border: #424242 solid 2px; display: flex; align-items: center;
+        border-radius: 50px; background-color: rgba(0,0,0,0.6); }
+.contenedordeestrenos{width: 80%; height: auto;padding: 2%; margin-left: auto; margin-right: auto;}
+.registrar{width: auto; height: auto; background: transparent; border: 0px; font-weight: 600; color: white; font-size: 1.2vw; }
+.registrar:hover{cursor: pointer;}
+
+.contenedordebotonesdecategoria{width: auto; height: auto; padding: 2%;;}
+.onli{width: auto; padding: 2%; color: white; font-size: 2vw; font-weight: 600; background: transparent; border: 0px;}
+.onli:hover{cursor: pointer; color: orange;}
+
+.contenedordeanuncioprincipal{width: auto; height: auto;background: transparent;  display:  flex;}
+h1{color:white; font-size: 4vw; font-weight: 600;}
+h2{color: thistle;}
+.anunciodos{width: 60%; height: auto; word-wrap: break-word;  margin-left: 40%;}
+
+.trailer{display: flex; align-items: center; width: auto; height: auto; justify-content: center;}
+.play:hover{box-shadow: 0px 0px 4px 2px black }
+.play{ width: 25%; height: auto; padding: 0.5%; display: flex;align-items: center; justify-content: center; background: #039be5;  text-align: center; font-size: 1.5vw; font-weight: 600; border:  0px; border-radius: 50px;}
+
+
+.modal{ width: 30%;height: auto; padding: 2%; position: absolute; display: none; top: 0%; left: 0%; }
+.contendormodal{background-image: url('imagenes/iconos/enfoco.jpg'); width: 80%; height: 20vw; position: relative;
+    background-repeat: no-repeat; background-size:contain;}
+
+
+
+
+.sin_estreno{display: none;}
+.estrenos{display: none;}
+
+
+
+
+
+
+        .contenedorImagen{width: 20%; height: 20vw; position: relative; 
+            background-image: url('imagenes/imagen_pelis/black.png');background-repeat: no-repeat; background-size:contain;}
+            .contenedorImagendos{width: 20%; height: 20vw; position: relative; 
+                background-image: url('imagenes/imagen_pelis/jungla.png');background-repeat: no-repeat; background-size:contain;}
+        .repro{width:100% ; height: 100%;}
+        .repro:hover{background-image: url('imagenes/iconos/icons8_video.ico');
+             position: absolute; width: 100%;height: 100%;
+       cursor: pointer; background-repeat: no-repeat; background-color: rgba(0,0,0,0.5); background-position: center; align-items: center;}
+
+       
